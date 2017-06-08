@@ -1,0 +1,53 @@
+
+html,
+body {
+  width: 100%vw;
+  min-width: 200px;
+  min-height: 400px;
+  background: #eeeeee;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Comfortaa', sans-serif;
+  color: darkgray;
+  text-align: center;
+}
+
+header,
+main,
+footer {
+  float: left;
+  width: 100%;
+  background: white;
+  text-align: center;
+}
+
+header,
+footer {
+  background: rgba(0,200,255,0.2);
+} .text {
+  position: relative;
+  width: 100%;
+  top: 50%;
+  text-align: center;
+}
+
+main .text {
+  position: relative;
+  width: 100%;
+  top: 0;
+  text-align: center;
+}
+
+
+
+header {
+  height: 150px;
+}
+
+main {
+  height: 2000px;
+}
+
+footer {
+  height: 50px;
+}

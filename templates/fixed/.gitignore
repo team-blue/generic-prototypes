@@ -1,0 +1,5 @@
+#
+.DS_Store
+
+# don't package with the built docs
+doc/build/*
